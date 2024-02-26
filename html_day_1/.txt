@@ -1,0 +1,112 @@
+//Basic structure of html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+</body>
+</html>
+
+1) html has closing and opening tags, example :<body></body>
+2) titles are used by search engines and they are parsed by them.
+--titles describe page content
+3)head section has meta data,keywords,description.
+4)link tag is used to link css files and are written after title tags.
+5)script tags are used to link javaScript file and written befor cloding of body tag.
+
+//To Preview/ see whatever changes you make on your website on your mobile
+1)Go to your website page-->right click--> open terminal
+2)Inside your terminal write "ipconfig"--> press "enter"
+3)Then you can see IPV4 address --> copy your IPV4 address
+4)In your setting write Live Preview -->you can see"Live Preview:Host IP"-->paste your IPV4 address
+Note : make your wifi network as private before making above changes
+5)Restart your code editor-->click on go Live
+7)In your mobile open browser write your URL /IPV4 address Then you can see on your mobile .
+
+//Tags
+1)Heading tags in html are from "h1 to h6"
+2)paragraph tag "p" and for dummy paragraph write "lorem" and if you want paragraph tohave more words then you can write number after lorem and press enter ex: lorem10
+3)Attribute are written inside opening tags
+--Definition : An attribute is a quality, character, or characteristic given to a person, group, or thing. For example, "She has the physical attributes to become a championship swimmer"
+4) to open any website in new tab you can write inside anchor tag target="_blank"
+
+//More tags
+1)image tag : img, in this you can see two attributes src and alt
+-- src : main image link.
+--alt : if the source image is not displayed then alt is displayed
+--you can also add width and height in this tag
+
+2)table tag : 
+--tr-> table row
+--th-> table Heading
+--td->table data
+--colspan->it will take two columns
+--rowspan->it will take two rows
+--caption tag->The <caption> tag in HTML is used to define a caption for a table, image, or other content.
+--The <caption> tag must be inserted immediately after the <table> tag.
+--thead->The <thead> tag is used to group header content in an HTML table
+--tfoot->The <tfoot> tag is used to group the footer content of the table.
+--tbody->The <tbody> tag is used to group the body content of the table.
+
+3)ordered and unordered and definition lists
+
+--ul->unorderd list--This means that the items in the list are not in any particular order and are usually marked with bullets.
+
+--ol->ordered list--This means that each item in the list is preceded by a numerical or alphabetical identifier.
+
+--dl->definition list--The <dl> element is used to create a definition list, which groups terms with their definitions.
+
+NOTE : you can customize  unordered list by using "type" attribute ex: type="square"/circle,hallow etc
+
+you can also cutomize odered list also ex: type="a"/A etc
+
+4) Core web vitals(It is very important with the aspects of SEO)
+
+a)CLS (Cumulative Layout Shift):
+->is a Core Web Vitals metric that measures how often elements on a page shift unexpectedly while the page is downloading and rendering.
+->CLS is important because it can impact a website's user experience and SEO ranking. 
+->A low CLS helps ensure that the page is delightful.
+
+b)LCP(Largest Contentful Paint ):
+->s a Core Web Vitals metric that measures how long it takes a website to display the largest content on the screen.
+->LCP is the time between when a user starts loading a page and when the largest image or text block is rendered in the viewport.
+->A fast LCP helps reassure the user that the page is useful.
+
+c)FID(First Input Delay):
+->is a Core Web Vitals metric that measures how long it takes for a web page to respond to a user's first interaction.
+->This includes interactions like clicking a link, tapping a button, or making a keypress. 
+->FID is an essential metric for SEO because it measures user experience and how users interact with websites. 
+
+d)TO improve you web page SEO ranking ->open your web page-> inspect->click on light house-> click on mobile / desktop -> it will generate report what all things required to improve in your web page.
+
+
+4)//Forms and Input and moretags
+
+a) Form :The HTML form tag, <form>, is used to create an interactive form on a webpage.
+-->post :POST method - used to send data to a server to update a resource.
+-->get :GET method - used to request data from a specified resource.
+
+
+b)input :The <input> tag specifies an input field where the user can enter data.
+
+--type:the type attribute specifies the type of <input> element to display.
+
+--id:The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+
+--for :The for attribute is an allowed attribute for <label> 
+
+
+c)label :<label>, is used to add a label to a form control, such as a text, email, password, or textarea.
+
+-->The Label tag is necessary to showcase what the field represents on the form you are creating and ultimately displaying.
+
+d)textarea :The HTML <textarea> tag defines a multi-line text input control.
+
+e) select :The <select> element is used to create a drop-down list. 
+
+
+
+
