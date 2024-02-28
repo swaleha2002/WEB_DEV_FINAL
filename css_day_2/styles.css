@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+}
+.box{
+    background-color: aqua;
+}
+.box1{
+    
+    color: rgb(232, 44, 44);
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.box2{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    border: 2px solid blue;
+}

@@ -1,0 +1,7 @@
+//Css Boxmodel
+-->everything in css is a box 
+1)padding
+2)border
+3)margin
+
+//margin collapse

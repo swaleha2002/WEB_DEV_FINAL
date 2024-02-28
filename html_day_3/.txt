@@ -1,0 +1,35 @@
+//SEMANTIC TAGS
+
+-->HTML5 introduced a range of semantic tags that provide meaning to the structure of web content.
+
+-->semantic tags are important for SEO.
+
+-->They enhance SEO, improve accessibility, and make your code easier to read and maintain.
+
+
+
+-->Examples
+<header>,<nav>,<article>,<section>,<aside>(Typically used for sidebars or content that is tangentially related to the main content.)
+<figure>(and <figcaption>: Used for embedding images, diagrams, or charts, along with a caption.)
+<main>: Signifies the main content area of a web page.
+<time>: Used to represent time-related information, like dates and times.
+
+
+-->Commonly Used Semantic Tags
+
+header: Contains introductory content.
+footer: Holds footer information.
+article: Encapsulates a self-contained composition.
+section: Represents a standalone section.
+aside: Contains content aside from the content it is placed in.
+nav: Holds navigation links.
+
+//Conclusion
+-->HTML has many tags then you should explore it
+-->source : MDN website
+
+//Entities
+&lt : less than
+&gt : greater than
+&copy : copyright
+&nbsp : spaces
