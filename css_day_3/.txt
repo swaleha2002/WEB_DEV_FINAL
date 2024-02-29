@@ -1,0 +1,23 @@
+//fonts,text and color
+-->use google fonts
+-->there are two ways of using google fonts
+-first you can use import methode where you import it in style.css file
+-second is link method which is written after title tag in html file
+-poppins is a best font to use some times.
+
+-->font-size,font-style,font-weight,font-family are properties of fonts.
+-->line-height : this property specifies space between upper and lower line. default line height is 1.2
+--> letter spacing : this property used for space between letter.
+--> to capitalize first letter we use "text-transform: capitalize;",to capitalize all letters we use uppercase.
+-->text-decoration,text-decoration-thickness,text-overflow:
+text-align-center:
+
+
+//Colors
+-->hex-color-codes
+-->RGB
+-->RGBA
+-->HSL
+
+//Exercise
+1)Write html and css code to style  aparagraph inside a div which contains 5 other paragraphs.The first paragraphmust have bg-color yellow and text color red,the other paragraphs must have bg color blue and text color white.do not use class inside the p tag

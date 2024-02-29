@@ -1,0 +1,16 @@
+p{
+ font-family: 'Courier New', Courier, monospace;
+font-style: italic;
+text-transform: uppercase;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+    
+}
+div{
+    color: black;
+    background-color: aquamarine;
+
+}
