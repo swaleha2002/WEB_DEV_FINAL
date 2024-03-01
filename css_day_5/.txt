@@ -1,0 +1,49 @@
+//CSS DISPLAY
+--if element is inline and in css you set padding then padding top will not be applicable because element is inline.
+--then make it inline block.
+
+//display block and display none
+--Display Inline
+It only takes the space required for content, leaving the rest space for other elements to come. 
+Syntax: 
+{display: inline;}
+
+--Display Block
+It takes the full width available across the website page leaving a new line before and after the element.
+Syntax: 
+{display: block;}
+
+--display none
+display:none removes the element from the document. It does not take up any space
+
+--visibility:
+hidden hides the element, but it still takes up space in the layout.
+
+
+//Shadow and outline
+
+--The Syntax for box-Shadows is as follows:
+box-shadow: h-offset v-offset blur spread color inset;
+
+--Syntax of text shadow
+text-shadow: h-offset v-offset blur color;
+
+//Outlines
+--An outline is a line that is drawn around elements, outside the borders, to make the element "stand out".
+
+--The Syntax for Outlines 
+outline: width style color;
+
+//Differences between Outlines and Borders:
+While both can visually appear similar, outlines differ from borders in a few ways:
+
+Position: Outlines don't take up space; they're drawn around the element, outside of any border.
+
+Offset: Using the outline-offset property, you can set the space between an outline and the edge or border of an element.
+
+Width: Borders can have varying widths on different sides, outlines have a uniform width.
+
+Rounded Corners: Borders can have rounded corners using border-radius, while outlines generally cannot.
+
+
+//Styling list items

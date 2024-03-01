@@ -1,0 +1,23 @@
+
+nav ul li{
+    padding: 23px;
+    display: flex;
+    list-style-position: inside;
+    display:inline;
+
+}
+.box{
+    border: 2px solid green;
+    display: inline-block;
+    padding: 45px;
+}
+.square{
+    border: 2px solid green;
+    padding: 34px;
+     box-shadow: 5px 5px 15px 5px #888888; 
+}
+.text-element{
+text-shadow: 2px 2px 4px #8060d6; 
+outline: 2px solid rgb(173, 42, 63);
+border: 2px solid black;
+}
