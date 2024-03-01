@@ -1,0 +1,45 @@
+//CSS Specificity and Cascade
+-->CSS Specificity helps determine what style will be applied to the HTML element(s) when there are overlapping or multiple CSS rules.
+
+//The Cascade Algorithm
+-->he cascade algorithm has 4 distinct stages.
+1)Position and order of appearance: the order in which your CSS rules appear
+2)Specificity: an algorithm that determines which CSS selector has the strongest match
+3)Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+4)Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+
+--Effect of Position
+If there are two rules that have selectors of identical specificity, the last one to be declared won.
+
+--Specificity Calculation
+To calculate specificity, assign a value to each part of the selector:
+
+1)Universal Selector: 0
+2)Element selectors and pseudo-elements: 1
+3)Class selectors, attribute selectors, and 
+4)pseudo-classes: 10
+5)ID selectors: 100
+6)Inline styles: 1000
+
+--Importance
+The !important flag in CSS is used to give a particular style rule the highest level of importance, overriding any other competing styles. 
+
+
+Quick Quiz
+What will be the specificity value of the following selector:
+
+a.harryclass.rohan-class[href]:hover {
+  color: red;
+}
+Solution
+To calculate the specificity value of the selector a.harryclass.rohan-class[href]:hover, you can break down its components:
+
+Element selectors: a contributes 1 point.
+Class selectors: .harryclass and .rohan-class each contributes 10 points, totaling 20 points.
+Attribute selector: [href] contributes 10 points.
+Pseudo-class: :hover adds another 10 points.
+Add up all these values:
+
+1 (element) + 20 (classes) + 10 (attribute) + 10 (pseudo-class) = 41.
+
+So, the specificity value of the selector a.harryclass.rohan-class[href]:hover will be 41.
