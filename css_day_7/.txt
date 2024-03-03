@@ -1,0 +1,99 @@
+//CSS VARIABLES
+
+--CSS variables are entities defined by CSS authors that represent specific values to be reused throughout a document.
+--They are set using the @property at-rule or by custom property syntax (e.g., --primary-color: blue; ).
+-- (:root) is also used.
+---var() is used while giving property to element.
+
+--Example : 
+:root{  /* global variable */
+    --color:lightblue;
+    --seccolor:rgb(113, 208, 239);
+}
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor);
+}
+
+--variables can also hold values like string .
+
+
+//Media Queries
+--Media queries help to add responsiveness to the website by adding breakout points or when only a certain condition is true
+
+--Media queries are written using @media then type of device
+--@media only screen and @media not screen 
+
+
+
+ /* CSS Float and Clear */
+
+--The CSS float property specifies how an element should float.
+
+--The CSS clear property specifies what elements can float beside the cleared element and on which side.
+
+The float property can have one of the following values:
+
+left - The element floats to the left of its container.
+right - The element floats to the right of its container.
+none - The element does not float (will be displayed just where it occurs in the text). This is default.
+inherit - The element inherits the float value of its parent.
+
+//MORE ON CSS SELECTOR
+ <div class="boxes">
+        <div data-color="primary" class="box">I am first box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+
+/* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line{
+            color: yellow;
+        } */
+
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: blue;
+        } */
+
+        /* .box:nth-last-child(2){
+            background-color: red;
+        } */
+
+        .boxes::before {
+            content: "swaleha is good";
+            color: blue;
+        }
+
+        .boxes::after {
+            content: "Sigma course is also good";
+            color: red;
+        }
+
+        ::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder {
+            color: rgb(84, 84, 88);
+        }
