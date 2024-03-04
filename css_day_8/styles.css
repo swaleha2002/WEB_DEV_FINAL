@@ -1,0 +1,54 @@
+/*  css flex box  */
+/* .container{
+    most of the properties are applied on container     border: 2px solid black;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    here are no justify items in flexbox 
+    flex-flow: row wrap;
+    gap :40px 10px;
+}
+.item{
+    height: 32px;
+    width: 32px;
+    background-color: blueviolet;
+    margin: 4px;
+    border: 2px solid black;
+    /* flex-grow: 1; */
+/* }
+.order-1{
+order: 1;
+}
+.order-2{
+order: 3;
+}
+.order-3{
+order: 4;
+} */ 
+
+
+/* css grid */
+
+/* we can overlap one box on another using grid */
+.container{
+    border: 2px solid yellowgreen;
+    display: grid;
+    /* grid-template-columns: 120px 100px; */
+    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(4,minmax(100px,1fr));
+ gap: 34px;
+ row-gap: 10px;
+ column-gap: 44px;
+ justify-items:center ;
+ align-items: center;
+}
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+
+}
