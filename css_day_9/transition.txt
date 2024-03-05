@@ -1,0 +1,13 @@
+CSS Transitions
+Transitions control the ease of transformation from one style to another when we hover over that element. Basically, you can control the time take for any transformation to occur.
+
+ex:transition: width 3s;
+
+properties :
+    transition-property: transform ;
+    transition-duration: 3% ;
+    transition-timing-function:ease-in-out;
+    transition-delay: 1s;
+
+Short hand :
+  transition:all 3s ease-in-out 1s ;

@@ -1,0 +1,27 @@
+CSS 2D Transform
+This property allows the content to be restructured in ways like translate, rotate, scale or skew, etc.
+
+As it is 2D, therefore the content is transformed into x and y dimensions.
+
+Rotate
+This property rotates the content of the division either anticlockwise or clockwise acc to the degree of rotation. The values are taken in degree and on adding a negative sign the rotation becomes anticlockwise.
+
+Syntax: transform: rotate(value);
+eg :transform: rotate(-10deg);
+
+Scale
+This property rescales the width and height of the division in the ratio to the original dimensions. 
+
+For eg: transform: scale(1.4, 1.2);
+
+Skew
+This property helps in adding a slant or skew to division. (Skew: A pair of lines neither intersecting nor parallel)
+
+Eg:
+
+transform: skew(10deg, 5deg);
+
+Translate
+This property transforms the element’s position along x or y or both x and y directions.
+
+Syntax: transform: translate(x,y);

@@ -1,0 +1,23 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    /* transform: rotate(40deg); we can use deg and turns also */
+    /* transform: rotateZ(9deg); */
+    /* transform: scale(1.4, 1.2); */
+    /* /* transform: skew(10deg, 5deg); skew only applicable for  X nad Y not in Z AXIS */
+    /* transform: translate(10px,20px); */
+    /* translate is most commonly used property */
+
+    /* short hand */
+    transform:translate(100%) skew(40deg) translate(45%) ;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100vh;
+    height: 80vh;
+    border: 2px solid plum;
+}
