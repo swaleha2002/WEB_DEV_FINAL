@@ -1,0 +1,24 @@
+What are Variables?
+In JavaScript, variables are used to store data. They are an essential part of any programming language, as they allow you to store, retrieve, and manipulate data in your programs.
+
+var x;
+
+Data Types
+In JavaScript, there are several data types that you can use to store different types of data. Some common data types include:
+
+Numbers (e.g. 10, 3.14)
+Strings (e.g. "hello", 'world')
+Booleans (e.g. true, false)
+Arrays (e.g. [1, 2, 3])
+Objects (e.g. { name: "John", age: 30 })
+
+Variable Naming Rules
+There are a few rules that you need to follow when naming variables in JavaScript:
+
+Variable names can only contain letters, digits, underscores, and dollar signs.
+Variable names cannot start with a digit.
+Variable names are case-sensitive.
+It is also a good practice to use descriptive and meaningful names for your variables, as this makes your code easier to read and understand.
+
+
+type of null is Objects
