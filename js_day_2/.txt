@@ -1,0 +1,85 @@
+day-2---Expressions and conditionals---
+
+--If else conditionals--
+The "if" statement in JavaScript is used to execute a block of code if a certain condition is met. The "else" clause is used to execute a block of code if the condition is not met.
+
+syntax:if (condition) {
+  // code to be executed if condition is true
+} else {
+  // code to be executed if condition is false
+}
+
+
+//If else ladder
+
+--The "if-else ladder" is a control structure in JavaScript that allows you to execute a different block of code depending on multiple conditions. It is called a ladder because it consists of multiple "if" and "else" statements arranged in a ladder-like fashion.
+
+syntax:
+if (condition1) {
+  // code to be executed if condition1 is true
+} else if (condition2) {
+  // code to be executed if condition1 is false and condition2 is true
+} else if (condition3) {
+  // code to be executed if condition1 and condition2 are false and condition3 is true
+} ...
+else {
+  // code to be executed if all conditions are false
+}
+
+//Switch case
+The "switch" statement in JavaScript is another control structure that allows you to execute a different block of code depending on a specific value. It is often used as an alternative to the "if-else ladder" when you have multiple conditions to check against a single value.
+
+syntax
+switch (expression) {
+  case value1:
+    // code to be executed if expression == value1
+    break;
+  case value2:
+    // code to be executed if expression == value2
+    break;
+  ...
+  default:
+    // code to be executed if expression does not match any of the values
+}
+
+Ternary Operator
+The ternary operator is a shorthand way to write an if-else statement in JavaScript. It takes the form of condition ? value1 : value2, where condition is a boolean expression, and value1 and value2 are expressions of any type. If condition is true, the ternary
+
+Example :
+let x = 10;
+let y = 20;
+let max;
+
+max = (x > y) ? x : y;
+
+console.log(max); // Outputs: 20
+
+
+//For Loops
+For loops are a common control flow structure in programming that allows you to repeat a block of code a specific number of times. In JavaScript, there are three types of for loops: the standard for loop, the for-in loop, and the for-of loop.
+
+syntax :
+for (initialization; condition; increment/decrement) {
+  // code to be executed
+}
+
+//For-in loop
+The for-in loop is used to iterate over the properties of an object. It has the following syntax
+
+for (variable in object) {
+  // code to be executed
+}
+
+
+//For-of loop
+The for-of loop is used to iterate over the values of an iterable object, such as an array or a string. It has the following syntax:
+
+for (variable of object) {
+  // code to be executed
+}
+
+//While Loop
+While loops are a control flow structure in programming that allow you to repeat a block of code while a certain condition is true. In JavaScript, the syntax for a while loop is:
+while (condition) {
+  // code to be executed
+}
