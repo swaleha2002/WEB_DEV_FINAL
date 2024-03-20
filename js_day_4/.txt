@@ -1,0 +1,3 @@
+DOM AND BOM
+DOM : Document Object model
+BOM : Browser Object model
